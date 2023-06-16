@@ -68,13 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _start = 10;
     });
   }
-
-  @override
-  void dispose() {
-    _timer.cancel();
-    super.dispose();
-  }
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
